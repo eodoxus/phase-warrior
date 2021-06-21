@@ -1,0 +1,10 @@
+{
+  "animations": {
+    "enemies": "animations/enemies.png",
+    "hero": "animations/hero.png",
+    "npcs": "animations/npcs.png"
+  },
+  "maps": {
+    "overworld": "maps/overworld.png"
+  }
+}
