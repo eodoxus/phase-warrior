@@ -10,9 +10,10 @@ export default class MainScene extends Phaser.Scene {
   }
 
   create() {
-    //new PhaserLogo(this, this.cameras.main.width / 2, 0)
+    this.input.mouse.disableContextMenu();
     this.fpsText = new FpsText(this);
     this.hero = new Hero(this, 400, 300);
+    this.add.existing(this.hero);
   }
 
   update() {
